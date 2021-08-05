@@ -1,11 +1,9 @@
-```
 ---
 layout: post
-title:  "Algorithm🧶 | 전화번호 목록(Hash)"
-date:   2021-03-21
+title: "Algorithm🧶 | 전화번호 목록(Hash)"
+date: 2021-03-21
 categories: TIL Level2 algorithm hash programmers 코딩테스트
 ---
-```
 
 > https://programmers.co.kr/learn/courses/30/lessons/42577
 
