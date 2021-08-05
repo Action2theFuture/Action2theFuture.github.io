@@ -115,8 +115,6 @@ def solution(c):
     return reduce(lambda x,y:x*y,[a+1 for a in collections.Counter([x[1] for x in c]).values()])-1
 ```
 
----
-
 **다른 사람 풀이 2**
 
 ```python
