@@ -7,7 +7,7 @@ categories: TIL Django-orm Python SQL
 
 ![](https://images.velog.io/images/action2thefuture/post/28c970ec-c1f6-4d88-96ac-afa5dea86697/sql%EB%AC%B8.png)
 
-1. 테이블 안에 특정한 row를 가져오기
+**테이블 안에 특정한 row를 가져오기**
 
 ```sql
 SELECT price, description FROM products;
@@ -17,7 +17,7 @@ SELECT price, description FROM products;
 products.objects.values('price', 'description').distinct()
 ```
 
-2. 테이블에서 해당 인덱스까지 슬라이싱
+**테이블에서 해당 인덱스까지 슬라이싱**
 
 ```sql
 SELECT * FROM products LIMIT 10;
@@ -27,7 +27,7 @@ SELECT * FROM products LIMIT 10;
 products.objects.all()[:10]
 ```
 
-3. Limit, Offset
+**Limit, Offset**
 
 ```sql
 SELECT * FROM products LIMIT 2 OFFSET 3;
@@ -39,7 +39,7 @@ SELECT * FROM products LIMIT 2 OFFSET 3;
 products.objects.all()[4:6]
 ```
 
-4. Filter
+**Filter**
 
 ```sql
 SELECT * FROM products WHERE id = 1;
@@ -49,7 +49,7 @@ SELECT * FROM products WHERE id = 1;
 products.objects.filter(id=1)
 ```
 
-5. Filter by comparison operators
+**Filter by comparison operators**
 
 ```sql
 SELECT * FROM products WHERE price > 5000;
@@ -67,7 +67,7 @@ products.objects.filter(price__lte=18)
 products.objects.exclude(price=18)
 ```
 
-6. Between
+**Between**
 
 ```sql
 SELECT * FROM products WHERE price BETWEEN 3000 AND 5000;
@@ -77,8 +77,9 @@ SELECT * FROM products WHERE price BETWEEN 3000 AND 5000;
 products.objects.filter(price__range=(3000, 5000))
 ```
 
-7. LIKE operator
-   해당 문자열이 있는지 확인
+**LIKE operator**
+
+해당 문자열이 있는지 확인
 
 ```sql
 SELECT * FROM products WHERE korean_name like '%A%';
@@ -100,7 +101,7 @@ products.objects.filter(korean_name__endswith='A')
 
 i-swith : 대소문자 구별하지 않음
 
-8. IN operator
+**IN operator**
 
 ```sql
 SELECT * FROM products WHERE id in (1, 2);
@@ -110,7 +111,7 @@ SELECT * FROM products WHERE id in (1, 2);
 products.objects.filter(id__in=[1, 2])
 ```
 
-9. AND
+**AND**
 
 ```sql
 SELECT * FROM products WHERE id = 1 AND price > 3000;
@@ -120,7 +121,7 @@ SELECT * FROM products WHERE id = 1 AND price > 3000;
 products.objects.filter(id = 1, age__gt=3000)
 ```
 
-10. OR
+**OR**
 
 ```sql
 SELECT * FROM products WHERE id = 1 OR price > 3000;
@@ -131,7 +132,7 @@ from django.db.models import Q
 products.objects.filter(Q(id = 1) | Q(age__gt=3000))
 ```
 
-11. NOT
+**NOT**
 
 ```sql
 SELECT * FROM products WHERE NOT id = 1;
@@ -141,7 +142,7 @@ SELECT * FROM products WHERE NOT id = 1;
 products.objects.exclude(id=1)
 ```
 
-12. NULL
+**NULL**
 
 ```sql
 SELECT * FROM products WHERE price is NULL;
@@ -159,7 +160,7 @@ products.objects.filter(price=None)
 products.objects.exclude(price=None)
 ```
 
-13. ORDER BY Keyword
+**ORDER BY Keyword**
 
 ```sql
 SELECT * FROM products ORDER by price;
@@ -174,7 +175,7 @@ products.objects.order_by('price')
 products.objects.order_by('-price')
 ```
 
-14. Insert
+**Insert**
 
 ```sql
 INSERT INTO products VALUES ('커피', 'coffee', 5000);
@@ -184,7 +185,7 @@ INSERT INTO products VALUES ('커피', 'coffee', 5000);
 products.objects.create(korean_name='커피', english_name='coffee', price=5000)
 ```
 
-15. Update
+**Update**
 
 ```sql
 UPDATE products SET price = price * 1.5;
@@ -196,7 +197,7 @@ from django.db.models import F
 products.objects.update(price=F('price')*1.5)
 ```
 
-16. Delete all rows
+**Delete all rows**
 
 ```sql
 DELETE FROM products;
@@ -206,7 +207,7 @@ DELETE FROM products;
 products.objects.all().delete()
 ```
 
-17. Delete specific rows
+**Delete specific rows**
 
 ```sql
 DELETE FROM products WHERE price < 6000;
@@ -216,7 +217,7 @@ DELETE FROM products WHERE price < 6000;
 products.objects.filter(price__lt=10).delete()
 ```
 
-18. Aggregation
+**Aggregation**
 
 - MAX
 
@@ -274,7 +275,7 @@ SELECT COUNT(*) FROM products;
 products.objects.count()
 ```
 
-18. GROUP
+**GROUP**
 
 ```sql
 select price, count('price') as count from products group by price
@@ -296,10 +297,11 @@ products.objects.annotate(count=Count('price'))
 .filter(count__gt=0)
 ```
 
-&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 👇 **예시**
+👇 **예시**
+
 ![](https://images.velog.io/images/action2thefuture/post/c8d49b4b-7374-4128-b70c-4238b3283485/query%20set.png)
 
-18. JOIN
+**JOIN**
 
 ```python
 models.py

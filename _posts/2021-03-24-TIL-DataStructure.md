@@ -85,7 +85,7 @@ class HashTable:
 - 해쉬 테이블 저장공간 안에서 충돌이 문제를 해결한다
 - 충돌이 일어나면 해당 hash addres부터 맨 처음 빈 공간에 저장한다
 
-> https://www.fun-coding.org/Chapter09-hashtable.html
+[해쉬 테이블](https://www.fun-coding.org/Chapter09-hashtable.html)
 
 ### Hash 라이브러리
 
