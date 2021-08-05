@@ -1,12 +1,9 @@
-```
 ---
 layout: post
-title:  "Algorithm🧶 | 다음 큰 숫자(2진수)"
-date:   2021-03-16
+title: "Algorithm🧶 | 다음 큰 숫자(2진수)"
+date: 2021-03-16
 categories: 2진수 Level2 algorithm programmers 코딩테스트
 ---
-
-```
 
 > https://programmers.co.kr/learn/courses/30/lessons/12911
 
