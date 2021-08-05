@@ -112,19 +112,19 @@ Click here <input type = "checkbox">
 
  - `button`, `checkbox`, `color`, `date`, `file`, `email`, `number`, `range`, `time`, `search`, `submit`
   
-| type | example | purpose
+| type | example | purpose |
 |:----------:|:----------|:----------|
-| **`button`** | <input type="button" value="button"> | 푸쉬 버튼
-| **`checkbox`** | <input type="checkbox"> | 선택/해제하는 값을 갖는다
-| **`color`** | <input type="color"> | 색을 지정해준다
-| **`date`** | <input type="date"> | 날짜를 지정하고 달력을 열어준다
-| **`file`** | <input type="file"> | 파일을 지정할 수 있다
-| **`email`** | <input type="email" value="email@abc.co.kr"> | 이메일을 편집하는 것을 도와준다
-| **`number`** | <input type="number" value ="0"> | 숫자를 입력할 수 있다
-| **`range`** | <input type="range"> | 값이 가려진 숫자를 입력한다 
-| **`time`** | <input type="time"> |  시간대가 없는 시간을 입력한다
-| **`search`** | <input type="search" value="search"> |  검색문자열을 입력한다
-| **`submit`** | <input type="submit" value="submit"> | 양식을 전송하는 버튼
+| **`button`** | <input type="button" value="button"> | 푸쉬 버튼 |
+| **`checkbox`** | <input type="checkbox"> | 선택/해제하는 값을 갖는다 |
+| **`color`** | <input type="color"> | 색을 지정해준다 |
+| **`date`** | <input type="date"> | 날짜를 지정하고 달력을 열어준다 |
+| **`file`** | <input type="file"> | 파일을 지정할 수 있다 |
+| **`email`** | <input type="email" value="email@abc.co.kr"> | 이메일을 편집하는 것을 도와준다 |
+| **`number`** | <input type="number" value ="0"> | 숫자를 입력할 수 있다 |
+| **`range`** | <input type="range"> | 값이 가려진 숫자를 입력한다  |
+| **`time`** | <input type="time"> |  시간대가 없는 시간을 입력한다 |
+| **`search`** | <input type="search" value="search"> |  검색문자열을 입력한다 |
+| **`submit`** | <input type="submit" value="submit"> | 양식을 전송하는 버튼 |
 <br>
 
 ---
