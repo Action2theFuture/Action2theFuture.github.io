@@ -13,10 +13,8 @@ categories: TIL Python Decorator
 - 또 다른 함수를 반환된다
 - 클로저를 이용하여 외부의 인자가 내부로 전달이 된다
 
-<details>
-<summary>클로저 예시</summary>
-<div markdown="1">  
-  
+**클로저 예시**
+
 ```python
 def outer(a, b):
   def inner(c):
@@ -27,10 +25,7 @@ closure = outer("여행", "제주도")
 print(closure("운산"))
 
 운산이는 제주도로 여행을 가고싶다
-
-````
-</div>
-</details>
+```
 
 ### JavaScript의 콜백함수랑 데코레이터의 차이점
 
@@ -39,9 +34,7 @@ print(closure("운산"))
   - JavaScript : 함수가 끝나고 다른 함수들이 연속적으로 호출할 경우 사용(비동기적 함수일경우 콜백지옥이 발생하여 함수가 동작이 안될 수 있다)
   - Python : 한 기능을 여러번 사용하기 위해서 사용
 
-<details>
-<summary>콜백 함수</summary>
-<div markdown="1">
+**콜백 함수**
 
 ```JavaScript
 
@@ -77,20 +70,15 @@ const result = async function (x) {
 4
 8
 16
-````
-
-</div>
-</details>
+```
 
 ### 데코레이터를 2개이상 연속으로 사용할 시 주의할 점
 
 이중으로 데코레이터를 사용하면 인자값이 중복되서 사용된다
-</br>
+
 functools의 wraps를 이용하여 중복을 방지할 수 있다
 
-<details>
-<summary>사용예시</summary>
-<div markdown="1">
+**사용예시**
 
 ```python
 from functools import wraps
@@ -160,6 +148,3 @@ example()
 함수
 후처리2
 ```
-
-</div>
-</details>
