@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Title"
+title: "DFS/BFS"
 date: 2021-08-02
 categories: TIL Algorithm DFS/BFS
 ---
