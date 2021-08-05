@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "TIL 3 | BootStrap"
+title:  "TIL | BootStrap"
 date:   2021-03-13
 categories: TIL HTML CSS BootStrap
 ---
