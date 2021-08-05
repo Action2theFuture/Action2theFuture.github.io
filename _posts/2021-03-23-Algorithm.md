@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Algorithm🧶 | 위장(Hash)"
+title: "위장(Hash)"
 date: 2021-03-23
 categories: TIL Level2 algorithm hash programmers 코딩테스트
 ---
