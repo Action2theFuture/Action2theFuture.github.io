@@ -11,7 +11,7 @@ categories: TIL Stack&Queue algorithm python DataStructure
 **Queue : FIFO(First in First Out)**
 **Deque : Double ended Queue**
 
-1. Stack
+## Stack
 
 ```python
 class Stack:
@@ -42,7 +42,7 @@ class Stack:
     self.stack[-1]
 ```
 
-2. Queue
+## Queue
 
 데이터 넣기 : EnQueue
 
@@ -79,7 +79,7 @@ class Queue:
 
 **collections 모듈을 이용하여 Stack과 Queue를 만들 수 있다**
 
-1. Stack
+## Stack
 
 ```python
 from collections import deque
@@ -90,7 +90,7 @@ stack.pop()
 stack.append('a')
 ```
 
-2. Queue
+## Queue
 
 ```python
 from collections import deque
@@ -106,7 +106,7 @@ queue. pop()
 queue.appendleft('a')
 ```
 
-3. dequeue
+## dequeue
 
 ```python
 from collections import deque

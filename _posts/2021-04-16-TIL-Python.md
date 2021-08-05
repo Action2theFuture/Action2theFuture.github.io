@@ -11,8 +11,9 @@ categories: TIL Module Import Path Python
 
 import하는 package나 module을 확인하기 위해 사용된다
 
-> **순서**
-> sys.modules >> built-in modules >> sys.path
+**순서**
+
+sys.modules >> built-in modules >> sys.path
 
 #### **sys.modules**
 
@@ -66,7 +67,8 @@ import를 하지 못하고 에러발생
 
 python 공식문서를 참조하면
 
-👉상대 임포트가 현재 모듈의 이름에 기반을 둔다는 것에 주의하세요. 메인 모듈의 이름은 항상 "**main**" 이기 때문에, 파이썬 **응용 프로그램의 메인 모듈로 사용될 목적의 모듈들**은 반드시 **절대 임포트를 사용**해야 합니다.
+👉상대 임포트가 현재 모듈의 이름에 기반을 둔다는 것에 주의하세요. 메인 모듈의 이름은 항상 "**main**" 이기 때문에,
+파이썬 **응용 프로그램의 메인 모듈로 사용될 목적의 모듈들**은 반드시 **절대 임포트를 사용**해야 합니다.
 
 ### 2. 패키지 내부 파일(상대경로 / 절대경로)
 
@@ -86,14 +88,19 @@ python 공식문서를 참조하면
 ![](https://images.velog.io/images/action2thefuture/post/a5bcc895-aacd-4491-8cd5-c4e70d1603e3/tree.png)
 
 **👇 `__init__py`인 파일에 `__all__`에 `add_and_multiply`는 제외하고 `multiplication`만 포함시켜본다**
+
 ![](https://images.velog.io/images/action2thefuture/post/43338664-5c9e-4f46-81b8-1b55c187570a/all.png)
+
 **👇 import를 해보니 `add_and_multiply.py`를 인식하지 못 한다**
+
 ![](https://images.velog.io/images/action2thefuture/post/116d7af0-8892-4538-9cd5-9455dd1bb997/all2.png)
 
 **👇 다시 `__init__.py`로 돌아가 `__all__`에 `add_and_multiply`도 포함시켜본다**
+
 ![](https://images.velog.io/images/action2thefuture/post/0fd1ca21-155f-4289-b32e-df3ae6a49e3b/all3.png)
 
 **👇 에러가 해결되고 정상적으로 출력이 되었다**
+
 ![](https://images.velog.io/images/action2thefuture/post/95d71854-30ee-4592-bd8b-c3c5cd83e90a/all4.png)
 
-> https://docs.python.org/ko/3/tutorial/modules.html#intra-package-references
+[파이썬 패키지에 대한 공식문서](https://docs.python.org/ko/3/tutorial/modules.html#intra-package-references)

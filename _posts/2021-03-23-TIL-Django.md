@@ -6,9 +6,10 @@ categories: TIL Django Python
 ---
 
 ![](https://images.velog.io/images/action2thefuture/post/902d3ca2-5b97-4d0b-a689-711fcfd65fd9/%EC%9E%A5%EA%B3%A0.jpg)
-Python's Framework
 
-> https://docs.djangoproject.com/ko/3.1/
+# Python's Framework
+
+[Django 공식문서](https://docs.djangoproject.com/ko/3.1/)
 
 # Django 시작 ✨
 
@@ -81,7 +82,7 @@ myenv/
           wsgi.py
 ```
 
-1. **manage.py**
+**manage.py**
 
 ```
 $ python manage.py `명령어`
@@ -97,8 +98,8 @@ $ python manage.py `명령어`
 - shell 쉘을 통해 데이터를 확인
 - collectstatic static 파일을 한 곳에 모음
 
-2. **settings.py**
-   프로젝트의 환경 및 구성을 저장
+**settings.py**
+프로젝트의 환경 및 구성을 저장
 
 - DeBug 디버그 모드(기본으로 True로 설정)
 - INSTALLED.APPS pip로 설치한 앱 또는 본인이 만든 앱을 추가
@@ -201,8 +202,11 @@ $ python manage.py createsuperuser
 ```
 
 **😁초기 화면**
+
 ![](https://images.velog.io/images/action2thefuture/post/99056392-cb09-4fb7-9370-c58bf99251ab/%EC%98%88%EC%8B%9C%2017.png)
+
 **🔗관리자 권한 page**
+
 ![](https://images.velog.io/images/action2thefuture/post/e7727316-bedb-468f-bb8f-e50dea330e66/%EC%98%88%EC%8B%9C%2018.png)
 
 - 관리자 권한으로 사용자 권한을 설정할 수 있고
@@ -225,7 +229,7 @@ class Model(models.Model):
 
 ```
 
-> **MODEL 참조** > https://docs.djangoproject.com/en/2.0/ref/models/fields/#field-types
+[MODEL 참조](https://docs.djangoproject.com/en/2.0/ref/models/fields/#field-types)
 
 **관리자 page로 app 변경**
 
@@ -288,6 +292,4 @@ $ python manage.py runserver
 
 ```
 $ python manage.py runserver 8080
-
-
 ```

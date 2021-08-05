@@ -125,16 +125,27 @@ class IndexView(View)
 Django에서 제공하는 HttpResponse로 많은 속성값을 사용할 수 있다
 
 **1. HttpRequest.body**
+
 바이트 문자열로 데이터를 처리할 때 사용한다 python에서 그대로 사용할 수 없으므로 json 모듈을 이용하여 파이썬이 읽을 수 있는 객체로 바꾸어서 사용이 가능하다
+
 **2. HttpRequest.path**
+
 해당 페이지의 경로를 확인이 가능하다
+
 **3. HttpRequest.method**
+
 get인지 post인지 http의 method를 문자열로 보여준다
+
 **4. HttpRequest.POST**
+
 딕셔너리 형태
+
 **5. HttpRequest.GET**
+
 딕셔너리 형태
+
 **6. HttpReques.headers**
+
 Http의 헤더를 대소문자를 구분하지 않고 딕셔너리같은 객체로 보내준다
 
 [여러가지의 HttpRequest의 속성](https://docs.djangoproject.com/ko/3.2/ref/request-response/#django.http.HttpRequest.encoding)

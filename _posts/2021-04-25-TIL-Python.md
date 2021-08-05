@@ -196,10 +196,12 @@ address=seoul
 에러가 해결되었지만 non-default parameter가 default parameter 뒤에 왔지만 파이썬은 이 코드를 받아들였다
 
 **Why❓**
-**address라는 non-default parameter이지만 또한 keyword를 받는 argument이다 **
+
+**address라는 non-default parameter이지만 또한 keyword를 받는 argument이다**
+
 (keyword-only arguments는 default arguments 뒤에 온다)
 
-> https://getkt.com/blog/python-keyword-only-arguments/
+[Key word only arguments](https://getkt.com/blog/python-keyword-only-arguments/)
 
 ---
 
