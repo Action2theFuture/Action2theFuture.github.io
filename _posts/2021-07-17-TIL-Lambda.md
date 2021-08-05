@@ -5,6 +5,9 @@ date: 2021-07-17
 categories: TIL Lambda
 ---
 
+</br>
+</br>
+</br>
 # Lambda
 
 **메소드를 하나의 표현식으로 나타낸 것**
