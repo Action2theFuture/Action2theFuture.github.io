@@ -58,8 +58,8 @@ print( check_password_using_lambda('123456789F') )
 
 ## map
 
-** list(map(lambda x: x , list )**
-**각 리스트 요소들을 x의 상태값으로 바꾸어 새로운 객체를 리턴한다**'
+**list(map(lambda x: x , list )**
+**각 리스트 요소들을 x의 상태값으로 바꾸어 새로운 객체를 리턴한다**
 
 ```python
 def solution(numbers):
@@ -93,5 +93,3 @@ def addList(list):
 
 # 15
 ```
-
-##
