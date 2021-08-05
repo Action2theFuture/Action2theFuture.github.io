@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "TIL 1 | HTML 기초 💬"
+date:   2021-03-11 21:03:36 +0530
+categories: TIL HTML
+---
+
 ## HTML(HyperText Markup Language)
 ---
 **웹페이지를 위한 마크업언어(MarkUp Language)**
