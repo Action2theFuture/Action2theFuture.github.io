@@ -9,7 +9,7 @@ categories: TIL DataStructure 트리
 
 **노드로만 이루어진 자료구조(계층적 구조)**
 
-![](https://github.com/knotted-developers/Computer-science/blob/8ba6ae3c7911569cca76d940645fda54bd2fb2d6/DataStructure/Images/node.png){: width="500" height="300"}
+![](https://github.com/Action2theFuture/Action2theFuture.github.io/blob/6a652b4ea5194d497bec63fb283b44c435b36351/_posts/Images/node.png){: width="500" height="300"}
 
 ### Tree 구성
 
@@ -47,7 +47,7 @@ categories: TIL DataStructure 트리
 - 순회는 Pre-order, In-order 아니면 Post-order로 이루어진다. 이 3가지 모두 DFS/BFS 안에 있다.
 - 트리는 이진 트리, 이진 탐색 트리, 균형 트리(AVL 트리, red-black 트리), 이진 힙(최대힙, 최소힙) 등이 있다.
 
-![](https://github.com/knotted-developers/Computer-science/blob/26ddb5131b21e19b95e4204d75459365243c9df5/DataStructure/Images/%EA%B7%B8%EB%9E%98%ED%94%84%20vs%20%ED%8A%B8%EB%A6%AC.png){: width="500" height="300"}
+![](https://github.com/Action2theFuture/Action2theFuture.github.io/blob/6a652b4ea5194d497bec63fb283b44c435b36351/_posts/Images/%EA%B7%B8%EB%9E%98%ED%94%84%20vs%20%ED%8A%B8%EB%A6%AC.png){: width="500" height="300"}
 
 ### B-Tree
 
@@ -84,6 +84,6 @@ categories: TIL DataStructure 트리
 - 형제한테 빌리기 / 형제와 결합하기 ( 아래서 자세히 설명 )
 - 삭제 키가 있는 노드가 내부 노드인 경우 - 대체 키를 찾아 대체한다.( 왼쪽 서브트리 중 가장 큰 값 OR 오른쪽 서브트리 중 가장 작은 값.)
 
-> 출처</br> > https://matice.tistory.com/8</br> > https://darrengwon.tistory.com/874</br>
+> https://matice.tistory.com/8 > https://darrengwon.tistory.com/874
 
 [B-Tree 구현 사이트](https://www.cs.usfca.edu/~galles/visualization/BTree.html)
