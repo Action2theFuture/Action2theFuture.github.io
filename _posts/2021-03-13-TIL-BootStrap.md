@@ -18,16 +18,26 @@ categories: TIL HTML CSS BootStrap
 [부트스트랩](https://getbootstrap.com/)
 
 1.CDN을 이용
+
 CSS
 
-```HTML
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+```html
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+  crossorigin="anonymous"
+/>
 ```
 
 JS
 
-```HTML
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+```html
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+  crossorigin="anonymous"
+></script>
 ```
 
 2.다운로드된 파일을 직접 적용
@@ -36,22 +46,21 @@ JS
 
 요소 안에 BootStrap에서 정한 Class를 넣으면 html의 code로 편리하게 작성이 가능하다
 
-```HTML
-<div class="container">
-  ...
-</div>
+```html
+<div class="container">...</div>
 ```
 
 ### 내장된 Grid System
 
 기기나 ViewPort에 따라 12개의 열이 나누어지는 것을 가능하게 해준다
 
-```HTML
+```html
 8:4 비율로 나누어진다
 <div class="row">
   <div class="col-md-8">.col-md-8</div>
   <div class="col-md-4">.col-md-4</div>
 </div>
+
 4:4:4 비율로 나누어진다
 <div class="row">
   <div class="col-md-4">.col-md-4</div>
@@ -85,13 +94,16 @@ JS
 
 1.viewport `<meta>` 를 제거
 
-```HTML
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+```html
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no"
+/>
 ```
 
 2.해당 요소의 가로폭 지정
 
-```HTML
+```html
 .container { width: 1000px !important; }
 ```
 

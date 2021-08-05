@@ -36,40 +36,38 @@ print(closure("운산"))
 
 **콜백 함수**
 
-```JavaScript
-
+```javascript
 function add(x) {
-    return new Promise((resolve, reject) => {
-        let sum = x + x;
-        console.log(sum);
-        resolve(sum);
-    })
+  return new Promise((resolve, reject) => {
+    let sum = x + x;
+    console.log(sum);
+    resolve(sum);
+  });
 }
 
 // 콜백 지옥에 빠질 수 있는 .then()을 사용한 Chaining
-add(2).then(result => {
-    add(result).then(result => {
-        add(result).then(result => {
-        })
-    })
-})
+add(2).then((result) => {
+  add(result).then((result) => {
+    add(result).then((result) => {});
+  });
+});
 
-4
-8
-16
+4;
+8;
+16;
 
 //async await
 
 const result = async function (x) {
-  const add1 = await add(x)
-  const add2 = await add(add1)
-  const add3 = await add(add2)
-  return add4
-}
+  const add1 = await add(x);
+  const add2 = await add(add1);
+  const add3 = await add(add2);
+  return add4;
+};
 
-4
-8
-16
+4;
+8;
+16;
 ```
 
 ### 데코레이터를 2개이상 연속으로 사용할 시 주의할 점
