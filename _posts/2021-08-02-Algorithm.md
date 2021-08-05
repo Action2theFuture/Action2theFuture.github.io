@@ -17,7 +17,7 @@ categories: TIL Algorithm DFS/BFS
 - 위에서부터 아래로 차례대로 내려오는 구조이므로 스택을 이용하여 구현한다
 - 노드를 방문했으면 그 노드를 방문했다는 여부를 검사해야한다
 
-<img src="https://github.com/knotted-developers/Computer-science/blob/e854f1545ebe7ba8c34c6042988565f601885e05/Algorithm/Images/DFS.gif" width="300" height="300">
+<img src="https://raw.githubusercontent.com/Action2theFuture/Action2theFuture.github.io/main/_posts/Images/DFS.gif" width="300" height="300">
 
 <details>
 <summary>DFS 코드(위 그림 참조)</summary>
@@ -72,7 +72,7 @@ DFS의 시간 복잡도
 - 인접한 노드를 저장하고 꺼내므로 큐를 이용하여 구현한다
 - 노드를 방문했으면 그 노드를 방문했다는 여부를 검사해야한다
 
-<img src="https://github.com/knotted-developers/Computer-science/blob/333fa1732df10ece205c737bf4a320bb8cc58cac/Algorithm/Images/BFS.gif" width="300" height="300">
+<img src="https://raw.githubusercontent.com/Action2theFuture/Action2theFuture.github.io/main/_posts/Images/BFS.gif" width="300" height="300">
 
 <details>
 <summary>BFS 코드(위 그림 참조)</summary>
