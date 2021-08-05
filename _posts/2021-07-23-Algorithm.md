@@ -5,7 +5,7 @@ date: 2021-07-23
 categories: TIL Level2 algorithm programmers 코딩테스트
 ---
 
-> https://programmers.co.kr/learn/courses/30/lessons/81302
+[거리두기 확인하기](https://programmers.co.kr/learn/courses/30/lessons/81302)
 
 ```python
 from collections import deque

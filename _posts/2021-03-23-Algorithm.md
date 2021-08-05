@@ -5,7 +5,7 @@ date: 2021-03-23
 categories: TIL Level2 algorithm hash programmers 코딩테스트
 ---
 
-> https://programmers.co.kr/learn/courses/30/lessons/42578
+[위장](https://programmers.co.kr/learn/courses/30/lessons/42578)
 
 **문제 설명**
 
