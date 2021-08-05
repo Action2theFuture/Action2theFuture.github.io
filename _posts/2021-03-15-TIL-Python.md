@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Beautiful Soup"
-date: 2021-03-11 21:03:36 +0530
+date: 2021-03-15
 categories: TIL Python WebScraping Beautifulsoup
 ---
 
@@ -45,13 +45,16 @@ requests로 해당 사이트의 요청이 성공하면(response 200) beautifulso
 
 ![](https://images.velog.io/images/action2thefuture/post/9c56b920-57b4-4e56-96fd-16ce09cbcfd9/%EC%98%88%EC%8B%9C%209.png)
 
-> https://python.flowdas.com/tutorial/index.html
+[파이썬 자습서](https://python.flowdas.com/tutorial/index.html)
 
 ---
 
 **개발자도구**로 해당 HTML의 구조를 확인해본다
+
 ![](https://images.velog.io/images/action2thefuture/post/084a3b79-e58b-4e74-a120-29bf4268f456/%EC%98%88%EC%8B%9C%2011.png)
+
 간단하게 몇줄의 code로 사이트의 정보를 원하는 부분만 가져올 수 있다
+
 ![](https://images.velog.io/images/action2thefuture/post/586c35a1-5296-447a-abe8-0b717e86721f/%EC%98%88%EC%8B%9C%2010.png)
 
 ```python
