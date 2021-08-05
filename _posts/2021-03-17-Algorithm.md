@@ -7,13 +7,11 @@ categories: TIL Stack&Queue algorithm python DataStructure
 
 ![](https://images.velog.io/images/action2thefuture/post/e12813da-6c5a-4db6-bb74-d58149bcbe6d/%EC%98%88%EC%8B%9C%2013.jpg)
 
-**Stack : LIFO(Last in First Out)
-Queue : FIFO(First in First Out)
-Deque : Double ended Queue **
+**Stack : LIFO(Last in First Out)**
+**Queue : FIFO(First in First Out)**
+**Deque : Double ended Queue**
 
 1. Stack
-   데이터 넣기 : push
-   데이터 꺼내기 : pop
 
 ```python
 class Stack:
@@ -45,8 +43,10 @@ class Stack:
 ```
 
 2. Queue
-   데이터 넣기 : EnQueue
-   데이터 꺼내기 : DeQueue
+
+데이터 넣기 : EnQueue
+
+데이터 꺼내기 : DeQueue
 
 ```python
 class Queue:
@@ -119,7 +119,7 @@ dequeue.pop()
 dequeue.append('b')
 ```
 
-**💬 복습 **
+**💬 복습**
 
 **Algorithm 문제 풀이 🤪**
 
