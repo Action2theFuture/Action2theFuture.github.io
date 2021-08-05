@@ -5,7 +5,7 @@ date: 2021-07-30
 categories: TIL Level3 algorithm programmers 코딩테스트
 ---
 
-> https://programmers.co.kr/learn/courses/30/lessons/43162
+[네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)
 
 ```python
 from collections import deque

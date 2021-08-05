@@ -5,7 +5,7 @@ date: 2021-07-28
 categories: TIL Level2 algorithm programmers 코딩테스트
 ---
 
-> https://programmers.co.kr/learn/courses/30/lessons/43164
+[여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164)
 
 ```python
 # BFS풀이
