@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Algorithm🧶 | 시저 암호(find함수, ASCII Code)"
+title: "시저 암호(find함수, ASCII Code)"
 date: 2021-03-14
 categories: Level1 programmers 정규표현식 코딩테스트
 ---

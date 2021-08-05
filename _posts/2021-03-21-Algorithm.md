@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Algorithm🧶 | 전화번호 목록(Hash)"
+title: "전화번호 목록(Hash)"
 date: 2021-03-21
 categories: TIL Level2 algorithm hash programmers 코딩테스트
 ---

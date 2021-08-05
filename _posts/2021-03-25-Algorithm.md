@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Algorithm🧶 | 실패율"
+title: "실패율"
 date: 2021-03-23
 categories: TIL Level1 algorithm programmers 코딩테스트
 ---

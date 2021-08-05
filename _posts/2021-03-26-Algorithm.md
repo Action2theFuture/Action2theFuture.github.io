@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Algorithm 🧶 | 문자열압축"
+title: "문자열압축"
 date: 2021-03-26
 categories: TIL Level2 algorithm programmers 코딩테스트
 ---
