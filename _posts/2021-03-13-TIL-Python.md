@@ -10,6 +10,7 @@ categories: TIL Python Function class generator
 ---
 
 ![](https://images.velog.io/images/action2thefuture/post/4279098b-105f-4a24-9a14-bb77d9f3373b/python.png)
+
 1991년에 프로그래머인 귀도 반 로섬(Guido van Rossum)이 발표한 프로그래밍언어로 간결하고 쉬운 문법으로 인기있는 프로그래밍 언어 중 하나이다
 
 > "Life is too short, You need python."
@@ -175,11 +176,13 @@ a.method()
 ---
 
 👇yield from을 이용하면 여러번 yield를 작성하지 않아도 된다
+
 ![](https://images.velog.io/images/action2thefuture/post/d8f29c01-ea23-41a7-9713-dfa1295259bc/%EC%98%88%EC%8B%9C%207.png)
 
 ---
 
 **👇이터레이터와 제너레이터 패턴구조**
+
 ![](https://images.velog.io/images/action2thefuture/post/3b688d6c-b887-4b7f-b02b-acc19bcb4fed/%EC%9D%B4%ED%84%B0%EB%A0%88%EC%9D%B4%ED%84%B0.png)
 
 #### lazy evaluation
@@ -240,6 +243,7 @@ print_iter(generator_exp())
 ```
 
 👇 **출력값**
+
 ![](https://images.velog.io/images/action2thefuture/post/8ee4041b-5ea5-4430-a618-900503dbef04/generator.png)
 
 **lazy evaluation을 이용하는 이유❓**

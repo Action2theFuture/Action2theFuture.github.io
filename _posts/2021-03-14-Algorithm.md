@@ -111,7 +111,7 @@ def caesar(s, n):
 chr() : 아스키 코드에서 해당되는 문자열을 가져온다
 ord() : 아스키 코드값을 돌려준다
 
-> https://ko.wikipedia.org/wiki/ASCII
+[아스키 코드](https://ko.wikipedia.org/wiki/ASCII)
 
 **ASCII code 10진법**
 
