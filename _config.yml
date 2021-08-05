@@ -40,6 +40,7 @@ plainwhite:
     #gitlab: jekyll
     email: dnstks0204
   disqus_shortname: jeongunsan
+  html_lang: "kr"
     # Mastodon instances
     # mastodon:
     # - username: jekyll
