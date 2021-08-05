@@ -1,0 +1,185 @@
+## CSS(Cascading Style Sheets)
+---
+**스타일시트를 위한 언어**
+
+>참고 사이트
+https://developer.mozilla.org/ko/docs/Web/CSS
+
+### CSS 작성
+
+1. 인라인 스타일
+```HTML
+<body><div style="font-size:50px"></div><body> 
+ ```
+2. 내부 스타일 시트
+```HTML
+<head>
+  <style>
+    div { font-size:50px; }
+  </style>
+</head>  
+```
+3. 외부 스타일 시트
+
+```HTML
+<head>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+```
+>💡인라인 스타일이  최우선으로 적용이 되고 다음으로 내부/외부 스타일 시트가 적용이 된다
+
+### CSS 규칙
+---
+![](https://images.velog.io/images/action2thefuture/post/922a8f7d-877f-417c-99bd-b3a1181951e6/div%20%7B%20font%20(1).png)
+
+**선택자(Selector)** : CSS를 적용하기 위해 HTML의 요소를 선택합니다
+**속성(Property)** : CSS를 나타내기 위한 방법을 정합니다
+**속성 값(Property Value)** : 속성을 나타내는 값을 나타냅니다
+**선언(Declaration)** : 요소의 속성을 명시합니다
+
+`{}`으로 감싸져야 한다
+속성과 속성 값은 `:`으로 구분되어 진다
+각 선언을 구분하기 위해 각 선언 끝에 `;`을 붙인다 
+### 선택자 종류
+---
+**1.** **아이디 선택자** : 특정 Id를 가진 요소에 적용합니다 
+
+```HTML
+#Id { 
+font-size: 50px;
+}
+```
+**ID 앞에 `#`을 붙여서 적용한다**<br>
+**2.** **클래스 선택자** : 특정 Class를 가진 요소에 적용합니다
+```HTML
+.Class {
+font-size: 50px;
+}
+```
+**Class 앞에 `.`을 붙여서 적용한다**<br>
+
+ >#### 💡 Class와 Id 
+Class와 Id는 문자로 시작해야 된다<br>
+Class는 여러 요소가 하나의 Class를 가질 수 있지만
+Id는 한 요소에 한 Id를 갖는다
+
+**3.** **특성 선택자** : 특정 Attribute를 가진 요소에 적용합니다
+```HTML
+div[attr] {
+font-size: 50px;
+}
+```
+**선택자 뒤에 `[]`안에 Attribute를 넣어서 적용한다**<br>
+**4.** **가상 선택자**
+
+```HTML
+div:hover {
+color:red;
+}
+```
+**선택자 뒤에 `:`를 붙여서 특정 이벤트를 적용한다**
+
+
+### 속성(Property)
+---
+#### **1. 글꼴과 크기** 
+```HTML
+<div style="font-family: 궁서체; font-size:50px">글꼴과 크기</div>
+```
+<div style="font-family: 궁서체; font-size:50px">글꼴과 크기</div><br><br>
+
+font-family : 글꼴을 지정하는 속성
+font-size : 문자의 크기를 지정하는 속성
+
+**🔗외부 링크를 가져와서 글꼴을 적용할 수도 있다🔗**<br>
+👇**예제**
+```HTML
+<link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+<div style="font-family: 'East Sea Dokdo', cursive; font-size:50px;">글꼴과 크기<div>
+```
+<link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+<div style="font-family: 'East Sea Dokdo', cursive; font-size:50px;">글꼴과 크기</div>
+
+  
+  >🔗 외부 링크
+  https://fonts.google.com/
+
+#### **2. Box Model**
+
+---
+
+![]
+(https://hackernoon.com/hn-images/1*2jZwpWH9XO_QllhEpyGqMA.png)
+
+>출처 사이트
+https://hackernoon.com/the-box-model-44fc2c04a935
+
+- margin : 요소의 바깥을 둘러싼 공간(외부 여백)
+- border : 요소의 테두리
+- padding : content를 둘러싼 공간(내부 여백), 테두리로 감싸져 있다
+<br>
+
+
+**개발자 도구를 이용하면 요소검사를 할 수 있다**
+- 개발자 도구창 열기
+  - window : F12, Ctrl + Shift + I
+  - mac : Cmd + Opt + I
+
+- 요소 검사
+  - window : Ctrl + Shift + C
+  - mac : Cmd + Shift + C
+
+
+#### **3. 레이아웃**
+
+  **📣position**
+```HTML
+ div {
+  position: static position
+}
+
+```
+**1. 정적 위치(static position)** : positon의 기본값 
+**2. 상대 위치(relative position)** : 기준 위치와 주어진 속성값에 따라 위치가 달라진다  
+**3. 절대 위치(absolute position)** : 부모 요소에 따라 달라진다
+부모 position에 relative를 부여하면 부모 위치값에 따라 변경된다
+**4. 고정 위치(fixed position)** : 보이는 화면 기준에 고정되어진다
+
+**📣inline, block , inline-block**
+![](https://images.velog.io/images/action2thefuture/post/c339e3ba-828d-48c3-99b9-3a957df12c99/display.svg)
+**1. inline**
+
+	해당 내용의 크기만큼만 영역을 차지한다 
+    대표적인 태그가 <span>이다
+**2. block**
+
+	한 부분의 영역을 차지하는 박스형태로 만들어진다 
+    가로의 길이가 기본값으로 가로영역의 전체이다
+    그러므로 자동적으로 줄바꿈을 지원한다
+    대표적인 태그가 <div>이다
+    
+**3. inline-block**
+
+	inline과 blcok의 특징을 가지고 있다
+    줄바꿈이 불가능하다 
+    하지만 크기를 지정할 수 있다
+    
+**📣float**
+
+float는 기본적으로 `left`,`right`,`none`을 가진다
+
+1. `left`: 해당 요소가 박스 형태로 왼쪽에 float가 된다
+2. `right`: 해당 요소가 박스 형태로 오른쪽에 float가 된다
+➡`left`와 `right`를 지정할 시 해당 `display` 속성은 무시된다
+3. `none`: 해당 요소가 float되지 않는다
+
+float 속성을 이용하여 layout을 만드면 해당 요소에 의해 다른 요소들에 문제가 발생하는 경우가 있다 
+
+그럴 떈 `clear`을 이용하여 해결할 수 있다
+방향(right, left, both)에 따라 다른 속성을 사용할 수 있다
+
+👇 **예시**
+
+1번 예시가 `clear` 속성을 적용한 예시이다
+![](https://images.velog.io/images/action2thefuture/post/ef41d91e-3096-43a6-903f-5982feb26030/float%20clear.png)
+
