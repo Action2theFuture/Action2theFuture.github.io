@@ -1,6 +1,6 @@
-title: Your awesome title
-author: GitHub User
-email: your-email@domain.com
+title: JeongUnsan
+author: Action2theFuture
+email: dnstks0204@gmail.com
 description: > # this means to ignore newlines until "show_exerpts:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -12,8 +12,8 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 plainwhite:
-  name: Adam Denisov
-  tagline: Developer. Designer
+  name: Jeong Unsan
+  tagline: Backend Developer
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
@@ -26,9 +26,9 @@ plainwhite:
     - post
   # generate social links in footer
   social_links:
-    twitter: samarsault
-    github:  samarsault
-    linkedIn: in/samarsault
+    #twitter: samarsault
+    github:  Action2thefuture
+    #linkedIn: in/samarsault
     #dribbble: jekyll
     #flickr:   jekyll
     #instagram: jekyll
@@ -38,7 +38,7 @@ plainwhite:
     #soundcloud: jekyll
     #telegram: jekyll
     #gitlab: jekyll
-    #email: jekyll
+    email: dnstks0204
 
     # Mastodon instances
     # mastodon:
@@ -58,3 +58,5 @@ theme: plainwhite
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
+
+remote_theme: samarsault/plainwhite-jekyll
