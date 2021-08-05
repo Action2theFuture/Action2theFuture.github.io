@@ -19,9 +19,7 @@ categories: TIL Algorithm DFS/BFS
 
 <img src="https://raw.githubusercontent.com/Action2theFuture/Action2theFuture.github.io/main/_posts/Images/DFS.gif" width="300" height="300">
 
-<details>
-<summary>DFS 코드(위 그림 참조)</summary>
-<div markdown="1">
+**DFS 코드(위 그림 참조)**
 
 ```python
 
@@ -54,8 +52,6 @@ dfs(graph, 1, visited)
 
 ```
 
-</div>
-</details>
 DFS의 시간 복잡도
 
 - DFS는 그래프(정점의 수: N, 간선의 수: E)의 모든 간선을 조회한다.
@@ -74,9 +70,7 @@ DFS의 시간 복잡도
 
 <img src="https://raw.githubusercontent.com/Action2theFuture/Action2theFuture.github.io/main/_posts/Images/BFS.gif" width="300" height="300">
 
-<details>
-<summary>BFS 코드(위 그림 참조)</summary>
-<div markdown="1">
+**BFS 코드(위 그림 참조)**
 
 ```python
 from collections import deque
@@ -114,9 +108,6 @@ bfs(graph, 1, visited)
 
 1 2 3 4 5 6 7 8 9 10
 ```
-
-</div>
-</details>
 
 BFS의 시간 복잡도
 
