@@ -59,4 +59,4 @@ plugins:
 
 remote_theme: samarsault/plainwhite-jekyll
 
-baseurl: "/"
+baseurl: "/blog"
