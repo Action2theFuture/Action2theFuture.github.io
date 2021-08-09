@@ -58,3 +58,5 @@ plugins:
   - jekyll-feed
 
 remote_theme: samarsault/plainwhite-jekyll
+
+baseurl: "/"
