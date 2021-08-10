@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "비밀지도"
+title: "타겟 넘버"
 date: 2021-08-04
 categories: TIL Algorithm Level1 programmers 코딩테스트 DFS/BFS
 ---
