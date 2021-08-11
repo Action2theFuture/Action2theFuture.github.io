@@ -2,7 +2,7 @@
 layout: post
 title: "네트워크"
 date: 2021-07-30
-categories: TIL Level3 algorithm programmers 코딩테스트
+categories: TIL Level3 algorithm programmers 코딩테스트 DFS/BFS
 ---
 
 [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162)
