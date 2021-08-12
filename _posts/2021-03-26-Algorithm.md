@@ -5,7 +5,7 @@ date: 2021-03-26
 categories: TIL Level2 algorithm programmers 코딩테스트
 ---
 
-[문자열압축](https://programmers.co.kr/learn/courses/30/lessons/60057)
+# [문자열압축](https://programmers.co.kr/learn/courses/30/lessons/60057)
 
 **문제 설명**
 

@@ -5,7 +5,7 @@ date: 2021-08-09
 categories: TIL Algorithm Level2 programmers 코딩테스트
 ---
 
-[124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899)
+# [124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899)
 
 ```python
 def solution(n):
