@@ -5,7 +5,7 @@ date: 2021-03-16
 categories: 2진수 Level2 algorithm programmers 코딩테스트
 ---
 
-[다음 큰 숫자](https://programmers.co.kr/learn/courses/30/lessons/12911)
+# [다음 큰 숫자](https://programmers.co.kr/learn/courses/30/lessons/12911)
 
 **문제 설명**
 

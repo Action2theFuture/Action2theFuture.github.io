@@ -5,7 +5,7 @@ date: 2021-08-06
 categories: TIL Algorithm Level2 programmers 코딩테스트
 ---
 
-[기능 개발](https://programmers.co.kr/learn/courses/30/lessons/42586)
+# [기능 개발](https://programmers.co.kr/learn/courses/30/lessons/42586)
 
 ```python
 import math

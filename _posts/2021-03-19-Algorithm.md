@@ -5,7 +5,7 @@ date: 2021-03-19
 categories: TIL 2차원배열 Level1 algorithm programmers 코딩테스트
 ---
 
-[크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061)
+# [크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061)
 
 **문제 설명**
 

@@ -5,7 +5,7 @@ date: 2021-08-05
 categories: TIL Algorithm Level1 programmers 코딩테스트
 ---
 
-[비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681)
+# [비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681)
 
 ```python
 def solution(n, arr1, arr2):

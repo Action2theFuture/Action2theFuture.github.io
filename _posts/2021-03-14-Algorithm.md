@@ -7,7 +7,7 @@ categories: Level1 programmers 정규표현식 코딩테스트
 
 전에 풀었던 문제지만 정규표현식을 복습한다는 생각으로 다시 풀어보았다
 
-[시저 암호](https://programmers.co.kr/learn/courses/30/lessons/12926)
+# [시저 암호](https://programmers.co.kr/learn/courses/30/lessons/12926)
 
 **문제 설명**
 
