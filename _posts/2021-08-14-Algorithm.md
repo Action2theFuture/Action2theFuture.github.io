@@ -5,7 +5,7 @@ date: 2021-08-14
 categories: TIL Algorithm Level3 programmers 코딩테스트 다이나믹프로그래밍(DP)
 ---
 
-[거스름돈](https://programmers.co.kr/learn/courses/30/lessons/12907)
+# [거스름돈](https://programmers.co.kr/learn/courses/30/lessons/12907)
 
 **첫번째 풀이**
 
