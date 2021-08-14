@@ -7,6 +7,8 @@ categories: TIL Algorithm Level3 programmers 코딩테스트 다이나믹프로�
 
 [거스름돈](https://programmers.co.kr/learn/courses/30/lessons/12907)
 
+**첫번째 풀이**
+
 ```python
 from itertools import permutations
 
@@ -27,6 +29,8 @@ def solution(n, money):
 
     return answer
 ```
+
+**두번째 풀이**
 
 ```python
 def solution(n, money):
