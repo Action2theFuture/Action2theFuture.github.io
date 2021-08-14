@@ -5,6 +5,10 @@ date: 2021-08-13
 categories: TIL Algorithm Level3 programmers 코딩테스트 다익스트라알고리즘 Heap
 ---
 
+# [외벽 점검](https://programmers.co.kr/learn/courses/30/lessons/60062)
+
+**첫번째 풀이**
+
 ```python
 from itertools import permutations
 import heapq
