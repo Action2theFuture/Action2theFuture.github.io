@@ -37,6 +37,8 @@ sym_diff = list(set(lst1).symmetric_difference(lst2))
 ['A', 'E', 'B', 'F']
 ```
 
+<br/>
+
 ```python
 def solution(n, lost, reserve):
     new_reserve = list(set(reserve).difference(lost))
