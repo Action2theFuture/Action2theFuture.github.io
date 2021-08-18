@@ -5,7 +5,7 @@ date: 2021-08-18
 categories: TIL Algorithm Level1 programmers 코딩테스트 탐욕법 Greedy
 ---
 
-[체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)
+# [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862)
 
 ### 집합
 
