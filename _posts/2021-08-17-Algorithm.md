@@ -26,6 +26,17 @@ hex(int) 16진수
 ### 10진수 → n진수
 
 ```python
+def conversion(n, q):
+    rev_base = ''
+
+    while n > 0:
+        n, mod = divmod(n, q)
+        rev_base += str(mod)
+
+    return rev_base[::-1]
+```
+
+```python
 
 def conversion(n, q):
     rev_base = ''
