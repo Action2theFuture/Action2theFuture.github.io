@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "행렬의 곱셈"
-date: 2021-08-21
+date: 2021-08-22
 categories: TIL Algorithm Level2 programmers 코딩테스트 행렬
 ---
 
