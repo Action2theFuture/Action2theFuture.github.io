@@ -2,7 +2,7 @@
 layout: post
 title: "땅따먹기"
 date: 2021-08-23
-categories: TIL Algorithm Level2 programmers 코딩테스트
+categories: TIL Algorithm Level2 programmers 코딩테스트 2차원배열
 ---
 
 # [땅따먹기](https://programmers.co.kr/learn/courses/30/lessons/12913)
