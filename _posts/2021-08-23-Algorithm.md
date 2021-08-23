@@ -15,6 +15,8 @@ categories: TIL Algorithm Level2 programmers 코딩테스트 2차원배열
 |  5  |  6  |  7  |  8  |
 |  4  |  3  |  2  |  1  |
 
+<br/>
+
 ```python
 def solution(land):
     for i in range(len(land)-1):
@@ -46,6 +48,8 @@ def solution(land):
     return result
 ```
 
+<br/>
+
 |      temp       | land[i][j] |
 | :-------------: | :--------: |
 |  [0, 2, 3, 5]   |     10     |
@@ -71,6 +75,8 @@ def solution(land):
             answer[j] = max(copy2)+row[j]
     return max(answer)
 ```
+
+<br/>
 
 | answer[j] |    copy2     | row[j] |
 | :-------: | :----------: | :----: |
