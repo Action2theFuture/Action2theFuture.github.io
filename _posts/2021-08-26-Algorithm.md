@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "단어 정렬"
-date: 2021-08-25
+date: 2021-08-26
 categories: TIL Algorithm Silver5 백준 코딩테스트 정렬
 ---
 
