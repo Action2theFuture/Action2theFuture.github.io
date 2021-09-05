@@ -5,6 +5,8 @@ date: 2021-08-27
 categories: TIL Algorithm Silver4 백준 코딩테스트 Queue
 ---
 
+# [요세푸스 문제 0](https://www.acmicpc.net/problem/11866)
+
 ```python
 import sys
 
