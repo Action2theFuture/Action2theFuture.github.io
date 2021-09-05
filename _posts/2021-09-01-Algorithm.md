@@ -5,7 +5,7 @@ date: 2021-09-01
 categories: TIL Algorithm gold5 백준 코딩테스트 Stack
 ---
 
-# (탑)[https://www.acmicpc.net/problem/2493)
+# [탑](https://www.acmicpc.net/problem/2493)
 
 ```python
 n = int(input())
