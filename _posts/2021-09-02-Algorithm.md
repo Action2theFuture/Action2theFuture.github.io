@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "쇠막대기"
-date: 2021-09-01
+date: 2021-09-02
 categories: TIL Algorithm silver3 백준 코딩테스트 Stack
 ---
 
