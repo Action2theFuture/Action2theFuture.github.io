@@ -53,8 +53,7 @@ mongoose.connection.on("disconected", () => {
 });
 ```
 
-> **Mongoose option**  
-> https://mongoosejs.com/docs/connections.html
+[Mongoose option](https://mongoosejs.com/docs/connections.html)
 
 mongoose를 이용하여 MongoDB가 연결이 되었다
 
