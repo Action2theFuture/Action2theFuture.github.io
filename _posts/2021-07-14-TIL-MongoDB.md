@@ -78,12 +78,11 @@ mongoose.model("User", User);
 
 #### ./models/index.js
 
-```JS
-const User = requrie('./schema');
-
+```javascript
+const User = requrie("./schema");
 
 const models = {
-    User
+  User,
 };
 
 module.exports = models;
