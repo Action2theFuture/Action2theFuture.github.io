@@ -7,11 +7,12 @@ categories: TIL MongoDB node.js 비동기
 
 # NoSQL 데이터베이스
 
-MongoDB는 동적 스키마형 데이터베이스이다
-데이터는 Document형태로 하나씩 저장이 된다
-기존의 관계형데이터베이스와 달리 관계적인 데이터를 추구하기 보다는 다른 종류의 데이터를 쉽고 빠르게 다룰 수 있다
+- MongoDB는 동적 스키마형 데이터베이스이다
+- 데이터는 Document형태로 하나씩 저장이 된다
+- 기존의 관계형데이터베이스와 달리 관계적인 데이터를 추구하기 보다는 다른 종류의 데이터를 쉽고 빠르게 다룰 수 있다
 
 Node.JS와 MongoDB와 연결하기 위해서는 Mongoose 모듈을 이용해야 한다
+
 **ODB(Object Document Modeling) : Modeling Tool**
 
 ## Mongoose
