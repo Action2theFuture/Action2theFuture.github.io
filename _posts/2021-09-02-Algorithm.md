@@ -2,7 +2,7 @@
 layout: post
 title: "쇠막대기"
 date: 2021-09-02
-categories: TIL Algorithm silver3 백준 코딩테스트 Stack
+categories: TIL Algorithm Silver3 백준 코딩테스트 Stack
 ---
 
 # [쇠막대기](https://www.acmicpc.net/problem/10799)
