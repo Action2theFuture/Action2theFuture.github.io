@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python Parameter"
+title: "Python | Parameter"
 date: 2021-04-25
 categories: TIL argument parameter Python
 ---

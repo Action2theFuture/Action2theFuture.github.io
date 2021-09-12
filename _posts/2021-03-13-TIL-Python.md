@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python func, class"
+title: "Python | func, class"
 date: 2021-03-13
 categories: TIL Python Function class generator
 ---
