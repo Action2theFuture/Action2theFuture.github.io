@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python"
+title: "Python 3"
 date: 2021-08-03
 categories: TIL Python Decorator
 ---

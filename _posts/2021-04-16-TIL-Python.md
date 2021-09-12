@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python"
+title: "Python 2"
 date: 2021-04-16
 categories: TIL Module Import Path Python
 ---

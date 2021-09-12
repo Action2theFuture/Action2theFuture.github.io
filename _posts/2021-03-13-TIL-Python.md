@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python"
+title: "Python 1"
 date: 2021-03-13
 categories: TIL Python Function class generator
 ---
