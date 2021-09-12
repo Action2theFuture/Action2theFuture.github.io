@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python 입력"
+title: "Python | 입력"
 date: 2021-09-08
 categories: TIL Python sys
 ---
