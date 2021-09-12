@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python Decorator"
+title: "Python | Decorator"
 date: 2021-08-03
 categories: TIL Python Decorator
 ---
