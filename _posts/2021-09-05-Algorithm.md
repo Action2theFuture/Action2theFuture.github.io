@@ -2,7 +2,7 @@
 layout: post
 title: "괄호"
 date: 2021-09-05
-categories: TIL Algorithm silver4 백준 코딩테스트 stack
+categories: TIL Algorithm Silver4 백준 코딩테스트 stack
 ---
 
 # [괄호](https://www.acmicpc.net/problem/9012)
