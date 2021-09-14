@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Python | Numpy2"
+title: "랜선 자르기"
 date: 2021-09-14
 categories: TIL Python Silver3 백준 코딩테스트 이진탐색
 ---
