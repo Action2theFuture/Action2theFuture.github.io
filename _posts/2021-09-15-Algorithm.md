@@ -31,6 +31,8 @@ class Solution:
 
 슬라이싱을 통한 브루트포스로 풀었지만 시간초과로 탈락
 
+동적계획법으로 푼 정답
+
 ```python
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
