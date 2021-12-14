@@ -80,7 +80,6 @@ def index(request):
 
 Django가 request로 여러 단계의 middleware를 지나가면서 여러가지 기능을 사용할 수 있도록 자동적으로 만들어주었다
 
-````python
 
 ```python
 #setting.py
@@ -94,7 +93,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'corsheaders.middleware.CorsMiddleware',
 ]
-````
+```
 
 ## Request
 

@@ -17,13 +17,13 @@ categories: TIL Django Python
 
 ## Django 설치🎈
 
-```python
+```bash
 $ python -m pip install Django
 ```
 
 ### 설치 확인
 
-```
+```bash
 $ python -m django --version
 ```
 
@@ -31,7 +31,7 @@ $ python -m django --version
 
 각 프로젝트의 환경설정에 대해 독립을 시키기 위해 가상환경을 설치한다
 
-```
+```bash
 pip install virtualenv
 ```
 
@@ -39,14 +39,14 @@ pip install virtualenv
 
 **환경변수 설정**
 
-```python
+```bash
 code ~/.zshrc
 export PATH=/프로그램 경로:$PATH
 ```
 
 **가상환경 만들기**
 
-```
+```bash
 $ virtualenv myenv
 ```
 
@@ -64,7 +64,7 @@ $ virtualenv myenv
 
 ---
 
-```python
+```bash
 $ django-admin startproject mysite
 ```
 
@@ -84,7 +84,7 @@ myenv/
 
 **manage.py**
 
-```
+```bash
 $ python manage.py `명령어`
 ```
 
@@ -111,7 +111,7 @@ $ python manage.py `명령어`
 
 ## App 만들기 🔨
 
-```
+```bash
 $ python manage.py startapp myapp
 ```
 
@@ -191,13 +191,13 @@ def index(request):
 
 #### DataBase 생성
 
-```python
+```bash
 $ python manage.py makemigrate
 ```
 
 ### 관리자 만들기
 
-```python
+```bash
 $ python manage.py createsuperuser
 ```
 
@@ -272,24 +272,24 @@ INSTALLED_APPS = [
 
 #### Model의 DB 활성화
 
-```python
+```bash
 $ python manage.py makemigrations myapp
 ```
 
 변경사항 DB에 저장
 
-```python
+```bash
 $ python manage.py migrate
 ```
 
 ## 개발 서버 동작
 
-```
+```bash
 $ python manage.py runserver
 ```
 
 **명령어 뒤에 원하는 포트 번호를 적어 사용할 수 있다**
 
-```
+```bash
 $ python manage.py runserver 8080
 ```

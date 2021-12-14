@@ -126,7 +126,7 @@ class ModelView(View):
 
 ## Templates
 
-```
+```python
 #view.py
 from django.template import loader
 from django.http import HttpResponse
@@ -144,7 +144,7 @@ class ModelView(View):
 
 ### django.shortcuts에서 제공하는 render()
 
-```
+```python
 #view.py
 from django.template import loader
 from django.shortcuts import render
